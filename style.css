@@ -1,0 +1,7 @@
+body {
+     background-image: url(img/bg.svg), url(img/bg2.svg);
+    background-repeat: no-repeat;
+    background-size: 70%, 100vw 100vh;
+    background-position: 50% -30%, 0% 0%;
+    background-origin: content-box;    
+    }
