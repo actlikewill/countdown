@@ -1,7 +1,80 @@
+
 body {
-     background-image: url(img/bg.svg), url(img/bg2.svg);
+     
+    background-image: url(img/bg.svg), url(img/bg2.svg);
     background-repeat: no-repeat;
-    background-size: 70%, 100vw 100vh;
-    background-position: 50% -30%, 0% 0%;
+    background-size: 90%, 100vw 100vh;
+    background-position: 160% center, 0% 0%;
+    background-attachment: fixed;
     background-origin: content-box;    
     }
+
+    .navmenu {
+         padding-right: 10em;
+    }
+    .navmenu > li {
+         margin: 0 1em;
+    }
+
+    .navbar-default {
+         background-color: #1c7fc3;
+    }
+
+    .sendy-logo {
+     width: 100px;
+     margin-left: 1em;
+    }
+
+    .mycontainer {
+         height: 100vh;
+    }
+
+    .mycard {
+     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+         background-color: white;
+         border-radius: 20px;
+         padding: 2.5rem;
+         margin-bottom: 200px;
+         text-align: center;
+         color: #2a87c7;
+         box-shadow: 2px 2px whitesmoke;
+
+    }
+    .card-heading {
+     font-size: 1.5rem;
+     font-weight: bold;
+    }
+    .launching {
+         font-size: .7rem;
+         font-weight: bold;
+    }
+
+    .clock-section {
+         padding: .5rem;
+         margin:  .5em;
+    }
+
+    .digits {
+         font-size: 4rem;
+         font-weight: bold;
+         text-shadow: 0px 3.5px 2px #d7d7d7;
+    }
+
+    .digits + span {
+         font-size: .6em;
+    }
+
+
+@media (min-width:  1500px) {
+     .mycard {
+          padding: 4rem 7rem;
+     }
+     .clock-section {
+          padding: 1.5rem;
+          margin:  1.5em;
+     }
+     .digits {
+          font-size: 6rem;
+          
+     }
+}
